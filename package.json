@@ -1,0 +1,16 @@
+{
+  "name": "sambert-tts-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "阿里云百炼 Sambert 实时语音合成试听坊，可部署到 Vercel",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
+  }
+}
